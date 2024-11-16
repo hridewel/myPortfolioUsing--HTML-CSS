@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hridoy Chowdhury</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="navbar">
+        <i class="fa-solid fa-chess-king nav-icon"></i>
+        <input type="checkbox" id="hamburger-icon-checkbox" class="hamburger-icon-input">
+        <label for="hamburger-icon-checkbox" id="hamburger-icon-id" class="hamburger-icon-label"><i class="fa-solid fa-bars"></i></label>
+        <ul class="nav-links">
+          <li><a href="#hero-id" class="aboutme">About Me</a></li>
+          <li><a href="#project-id" class="projects">Projects</a></li>
+          <li><a href="#contact-id" class="contactMe">Contact Me</a></li>
+          <li><a href="#social-id">Social Handles</a></li>
+        </ul>
+      </div>
+
+    </header>
+
+    <section class="hero" id="hero-id">
+      <!-- <h3 class="fadedText absolute">Hridoy Chowdhury</h3> -->
+      <div class="about-me">
+        <p class="about-me-heading">Hi! I'm Hridoy Chowdhury</p>
+        <p class="about-me-description">
+          I am a CSE sophomore. I am a passionate coder and programmer, driven by the challenge of problem-solving and
+          creating impactful solutions.
+          As a frontend developer, I focus on building user-friendly and visually appealing interfaces.
+          Additionally, I have experience as a software developer, designing and implementing efficient, scalable
+          applications.
+        </p>
+        <div class="btn">Hire Me</div>
+      </div>
+      <div class="imgContainer">
+        <div class="userImage">
+          <img src="./dp-for-portfolio.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="project-id" class="projectSection">
+      <h1 class="projectTitle">Projects</h1>
+      <div class="project1">
+        <div class="project1-img-container">
+          <img src="./p1.png" alt="" class="project-img">
+          <div class="project1-img-overlay">
+            <a href="#" class="project1-link">
+              <i class="fab fa-github"></i>
+              <i class="fas fa-link"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-img-desc-1">
+          <p class="project-desc1">Created a Zomato Clone Using HTML & CSS</p>
+          <p class="project-desc2"><span id="proj-desc2">Note</span>: Hover to get the Github Link</p>
+        </div>
+      </div>
+
+      <div class="project2">
+        <div class="project-img-desc-2">
+          <p class="project-desc1">Created Book My Show Clone Using HTML & CSS</p>
+          <p class="project-desc2"><span id="proj-desc2">Note</span>: Hover to get the Github Link</p>
+        </div>
+        <div class="project2-img-container">
+          <img src="./p2.png" alt="" class="project-img">
+          <div class="project2-img-overlay">
+            <a href="#" class="project2-link">
+              <i class="fab fa-github"></i>
+              <i class="fas fa-link"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-me" id="contact-id">
+      <div class="contact-form">
+        <h1>Contact Me</h1>
+        <form>
+          <div class="form-group">
+            <label for="name">Name: <span class="form-req">*</span></label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email: <span class="form-req">*</span></label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message: <span class="form-req">*</span></label>
+            <textarea id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div id="social-id" class="footer-section">
+        <div class="footer-icon">
+          <i class="fa-brands fa-linkedin icon"></i>
+          <i class="fa-brands fa-github icon"></i>
+          <i class="fa-brands fa-twitter icon"></i>
+          <i class="fa-brands fa-instagram icon"></i>
+          <i class="fa-regular fa-envelope icon"></i>
+        </div>
+        <div class="footerFadedText">Hridoy Chowdhury</div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
